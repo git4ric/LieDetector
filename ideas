@@ -1,0 +1,28 @@
+Ideas:
+
+Q - Question
+PA - Possible Approach
+PAS - Possible Approach Solution
+
+Q: We're having a stream of incoming data, where do I start to find FDs?
+
+PA-1:
+Ask the user to provide a historical data set and I find FDs using standard algorithms
+
+PA-2:
+We know we are only going to store limited data for all 4 categories
+Detect Fds everytime a new data is received untill we reach our storage limit
+
+Problem 1: What if we don't find any FDs after reaching limit?
+PAS-1: Discard data in FIFO order or some priority order and find again
+
+Probem 2: How fast do we need to find FDs so as to theoretically process before next new data arrives?
+PAS-2: If we use spark streaming, we get 1 second latency anyways, so we have 1 second at minimum to find FDs.
+beyond that incoming data will start getting queued.
+
+Q: What algorithm do I use to find FDs?
+Read this paper to get idea: Functional Dependency Discovery: An Experimental Evaluation of Seven Algorithms
+
+
+Q: How do I detect FD violation?
+In the simplest sense, I have a hash table of values 
