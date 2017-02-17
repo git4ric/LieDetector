@@ -16,13 +16,44 @@ Detect Fds everytime a new data is received untill we reach our storage limit
 Problem 1: What if we don't find any FDs after reaching limit?
 PAS-1: Discard data in FIFO order or some priority order and find again
 
-Probem 2: How fast do we need to find FDs so as to theoretically process before next new data arrives?
+Probem 2: How fast do we need to find FDs so as to theoretically process everything before next new data arrives?
 PAS-2: If we use spark streaming, we get 1 second latency anyways, so we have 1 second at minimum to find FDs.
 beyond that incoming data will start getting queued.
 
 Q: What algorithm do I use to find FDs?
 Read this paper to get idea: Functional Dependency Discovery: An Experimental Evaluation of Seven Algorithms
 
-
 Q: How do I detect FD violation?
-In the simplest sense, I have a hash table of values 
+
+PA-1: In the simplest sense, I have a hash table of values and I can just check if stance matches for corresponding key (Subject, Topic)
+
+Q: How much data to store?
+PA-1:
+Store a finite fixed number for now
+
+Q: How frequent data to store?
+
+PA-1: Different for 4 categories
+Frequent + Not Steady : Algorithms
+Frequent + Steady: Store outliers + few frequent
+Non Frequent + Not Steady: Store outliers
+Non Frequent + Steady: Store everything
+
+Q: How do I decide which data is important enough to store?
+
+PA-1: 
+Have a predetermined set of topics that are important to store
+In Politician database that will be a set of controversial topics
+In Parts/Supplier that will be say all parts greater than a certain price
+
+PA-2:
+Get real time popularity.
+
+Assuming for twitter dataset, we have a list of target tweeters i.e Subjects in Politicians database
+For these subjects we may need to normalize the retweets and likes with the average they always receive
+
+Popularity = function( retweets, likes )
+
+More retweets and less likes = Controversial
+More retweets and more likes = Favourable
+No retweets = Undesirable
