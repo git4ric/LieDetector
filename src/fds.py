@@ -33,6 +33,7 @@ def generateStream(tdata, sdata):
             dice -= 1
 
 
+
 if __name__ == "__main__":
 
     _generateRaw = 0
@@ -57,3 +58,7 @@ if __name__ == "__main__":
         generateStream(tdata, sdata)
         tdata.close()
         sdata.close()
+
+        lines = open("../data/targetdata_stream.orig").readlines()
+        random.shuffle(lines)
+        open("../data/targetdata_stream.orig", 'w').writelines(lines)
