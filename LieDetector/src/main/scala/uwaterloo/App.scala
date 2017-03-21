@@ -34,7 +34,8 @@ class FiniteQueue[A](q: Queue[A]) {
 object App {
 
   def mappingFunction(key: (String,String), value: Option[(String,String)], state: State[Map[(String,String),(String,String)]])
-  : Option[Map[(String,String),(String,String)]] = {
+  //: Option[Map[(String,String),(String,String)]] = {
+  : Option[String] = {
     // Use state.exists(), state.get(), state.update() and state.remove()
     // to manage state, and return the necessary string
 
@@ -48,8 +49,23 @@ object App {
         .map(x => existingTweets.updated(key,x))
         .getOrElse(existingTweets)
 
+    val violationDetection: Option[String] =
+      value
+        .map(x => {
+          if(existingTweets.contains(key)) {
+            val v = existingTweets.get(key).get
+            if (!v._2.contentEquals(x._2)) {
+              key.toString() + " stance changed"
+            }
+            else{""}
+          }
+          else{
+            ""
+          }
+        })
+
     state.update(updatedHold)
-    Option(updatedHold)
+    violationDetection
   }
 
 
@@ -80,7 +96,7 @@ object App {
 
     dstream.mapWithState(spec).foreachRDD( rdd => {
       if(!rdd.isEmpty()){
-        rdd.foreach(state => println(state.get.mkString(",")))
+        rdd.foreach(state => println(state.get))
       }
     })
 
