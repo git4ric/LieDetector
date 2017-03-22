@@ -7,7 +7,6 @@ import org.apache.spark.streaming._
 import scala.io.Source
 import org.apache.log4j.Logger
 import org.apache.log4j.Level
-import org.apache.spark.streaming.dstream.InputDStream
 
 import scala.collection.mutable
 import scala.collection.immutable.Queue
@@ -28,27 +27,30 @@ class FiniteQueue[A](q: Queue[A]) {
 }
 
 /**
- * Hello world!
- *
+ * Naive FD violation detection
+  * @author Ripul
  */
 object App {
 
   def mappingFunction(key: (String,String), value: Option[(String,String)], state: State[Map[(String,String),(String,String)]])
   //: Option[Map[(String,String),(String,String)]] = {
   : Option[String] = {
-    // Use state.exists(), state.get(), state.update() and state.remove()
-    // to manage state, and return the necessary string
 
+    // Retrieve the stored tweets from state
     val existingTweets: Map[(String,String),(String,String)] =
       state
         .getOption()
         .getOrElse(Map[(String,String) , (String,String)]())
 
+    // For each new key, update the corresponding value in
+    // updated hold
     val updatedHold: Map[(String,String),(String,String)] =
       value
         .map(x => existingTweets.updated(key,x))
         .getOrElse(existingTweets)
 
+    // This RDD wil be populated with
+    // all FD violations
     val violationDetection: Option[String] =
       value
         .map(x => {
@@ -64,13 +66,16 @@ object App {
           }
         })
 
+    // Solidify the updated hold as new state
     state.update(updatedHold)
+
+    // Return the violations at this point
     violationDetection
   }
 
 
   def main(args: Array[String]): Unit ={
-    val appName = "StreamingExample"
+    val appName = "Naive FD detection"
     val conf = new SparkConf().setAppName(appName).setMaster("local[1]")
     val batchDuration = Seconds(1)
     val ssc = new StreamingContext(conf,batchDuration)
