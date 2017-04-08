@@ -1,5 +1,6 @@
 package uwaterloo
 import java.nio.file.Files
+import java.nio.charset.Charset
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.streaming._
@@ -10,6 +11,8 @@ import org.apache.log4j.Level
 
 import scala.collection.mutable
 import scala.collection.immutable.Queue
+import jep.Jep
+import jep.JepConfig
 
 case class TweetInfo (
                       date: String,
@@ -42,11 +45,32 @@ object App {
         .getOption()
         .getOrElse(Map[(String,String) , (String,String)]())
 
+    var mustStore = false
+    val jepcon = new JepConfig()
+    jepcon.addSharedModules("numpy")
+    val jep = new Jep(jepcon)
+    jep.runScript("../src/classify.py")
+    var s = "John McCain idiot"
+    val res = jep.invoke("classify", s).asInstanceOf[String].replace("']","")
+    val classifyResult = res.replace("['","")
+
+    // If the model says store, we store
+    // this tweet
+    if(classifyResult.equals("yes")){
+      mustStore = true
+    }
+    jep.close()
+
     // For each new key, update the corresponding value in
     // updated hold
     val updatedHold: Map[(String,String),(String,String)] =
       value
-        .map(x => existingTweets.updated(key,x))
+        .map(x => if(mustStore) {
+          existingTweets.updated(key,x)
+        }
+        else{
+          existingTweets
+        })
         .getOrElse(existingTweets)
 
     // This RDD wil be populated with
@@ -72,7 +96,6 @@ object App {
     // Return the violations at this point
     violationDetection
   }
-
 
   def main(args: Array[String]): Unit ={
     val appName = "Naive FD detection"

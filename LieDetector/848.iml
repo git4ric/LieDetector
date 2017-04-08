@@ -127,5 +127,6 @@
     <orderEntry type="library" name="Maven: org.spark-project.spark:unused:1.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.scala-lang:scala-xml:2.11.0-M4" level="project" />
     <orderEntry type="library" name="Maven: org.apache.spark:spark-streaming_2.10:2.0.2" level="project" />
+    <orderEntry type="library" name="libs" level="project" />
   </component>
 </module>
