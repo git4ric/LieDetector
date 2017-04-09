@@ -1,555 +1,61 @@
-2016-07-06, Trump, E,  Negative
-2016-08-07, Bernie, Guns, Negative
-2016-07-02, Trump, Guns, Positive
-2016-07-09, Trump, Raise Taxes, Positive
-2016-07-08, Trump, D,  Positive
-2016-07-09, Trump, Raise Taxes, Negative
-2016-08-10, Bernie, Boeing, Positive
-2016-07-28, Hillary, A,  Positive
-2016-07-11, Trump, Medicare, Positive
-2016-07-10, Trump, Raise Taxes, Positive
-2016-07-24, Paul Ryan, A,  Negative
-2016-07-04, Trump, A,  Negative
-2016-08-13, Bernie, Social Programs, Positive 
-2016-07-05, Trump, Boeing, Negative
-2016-07-07, Trump, Wars, Negative
-2016-07-14, Paul Ryan, Guns, Positive
-2016-07-11, Trump, B,  Positive
-2016-07-09, Trump, G,  Positive
-2016-07-04, Trump, Immigration, Negative
-2016-08-11, Bernie, TPP, Negative
-2016-07-13, Trump, B,  Positive
-2016-07-08, Trump, E,  Positive
-2016-08-17, Bernie, C,  Positive
-2016-07-29, Hillary, Boeing, Positive
-2016-08-25, Obama, E,  Positive
-2016-07-15, Paul Ryan, Abortion, Negative
-2016-07-07, Trump, E,  Negative
-2016-07-09, Trump, Raise Taxes, Positive
-2016-07-02, Trump, D,  Positive
-2016-08-22, Obama, B,  Positive
-2016-07-05, Trump, B,  Negative
-2016-07-07, Trump, C,  Negative
-2016-07-12, Trump, Eminent Domain, Positive
-2016-07-28, Hillary, Immigration, Positive
-2016-07-30, Hillary, B,  Positive
-2016-08-29, Obama, Eminent Domain, Positive
-2016-08-08, Bernie, Abortion, Negative
-2016-08-12, Bernie, Wars, Negative
-2016-08-27, Obama, C,  Positive
-2016-08-20, Obama, Abortion, Negative
-2016-08-27, Obama, Cuba, Positive
-2016-07-17, Paul Ryan, Boeing, Positive
-2016-08-27, Obama, A,  Positive
-2016-08-14, Bernie, Raise Taxes, Positive
-2016-08-24, Obama, Wars, Negative
-2016-08-21, Obama, B,  Positive
-2016-08-10, Bernie, E,  Positive
-2016-07-21, Paul Ryan, Raise Taxes, Negative
-2016-08-08, Bernie, F,  Negative
-2016-08-24, Obama, Wars, Negative
-2016-07-21, Paul Ryan, Raise Taxes, Negative
-2016-07-11, Trump, Medicare, Positive
-2016-08-08, Bernie, Abortion, Negative
-2016-08-27, Obama, E,  Positive
-2016-07-20, Paul Ryan, Social Programs, Negative
-2016-08-15, Bernie, C,  Positive
-2016-08-22, Obama, Boeing, Positive
-2016-08-13, Bernie, Social Programs, Positive 
-2016-07-04, Trump, D,  Negative
-2016-07-31, Hillary, Wars, Positive
-2016-07-17, Paul Ryan, B,  Positive
-2016-07-16, Paul Ryan, Immigration, Positive
-2016-07-12, Trump, F,  Positive
-2016-08-14, Bernie, A,  Positive
-2016-08-17, Bernie, F,  Positive
-2016-07-21, Paul Ryan, C,  Negative
-2016-08-14, Bernie, G,  Positive
-2016-08-22, Obama, E,  Positive
-2016-08-19, Obama, Guns, Negative
-2016-08-14, Bernie, Raise Taxes, Positive
-2016-08-05, Hillary, D,  Positive
-2016-07-12, Trump, B,  Positive
-2016-08-24, Obama, Wars, Negative
-2016-08-03, Hillary, Cuba, Positive
-2016-08-13, Bernie, Social Programs, Positive 
-2016-08-08, Bernie, Abortion, Negative
-2016-07-08, Trump, G,  Positive
-2016-08-28, Obama, B,  Positive
-2016-07-05, Trump, Boeing, Negative
-2016-08-22, Obama, Boeing, Positive
-2016-08-29, Obama, Eminent Domain, Positive
-2016-07-10, Trump, F,  Positive
-2016-07-22, Paul Ryan, B,  Negative
-2016-08-26, Obama, C,  Positive
-2016-08-27, Obama, Cuba, Positive
-2016-08-12, Bernie, Wars, Negative
-2016-08-25, Obama, Social Programs, Positive
-2016-07-02, Trump, A,  Positive
-2016-07-09, Trump, Raise Taxes, Positive
-2016-07-12, Trump, C,  Positive
-2016-07-11, Trump, F,  Positive
-2016-07-03, Trump, E,  Negative
-2016-08-20, Obama, Abortion, Negative
-2016-07-29, Hillary, Boeing, Positive
-2016-08-14, Bernie, Raise Taxes, Positive
-2016-08-07, Bernie, Guns, Negative
-2016-07-05, Trump, E,  Negative
-2016-08-10, Bernie, A,  Positive
-2016-08-20, Obama, Abortion, Negative
-2016-08-21, Obama, Immigration, Positive
-2016-08-23, Obama, A,  Positive
-2016-08-26, Obama, B,  Positive
-2016-08-07, Bernie, Guns, Negative
-2016-07-10, Trump, Cuba, Positive
-2016-08-29, Obama, A,  Positive
-2016-07-15, Paul Ryan, A,  Negative
-2016-07-25, Paul Ryan, LGTBQ, Negative
-2016-07-14, Paul Ryan, Guns, Positive
-2016-08-16, Bernie, Medicare, Positive
-2016-07-30, Hillary, A,  Positive
-2016-07-25, Paul Ryan, LGTBQ, Negative
-2016-08-29, Obama, E,  Positive
-2016-08-08, Bernie, G,  Negative
-2016-08-09, Bernie, Immigration, Positive
-2016-07-23, Paul Ryan, Medicare, Negative
-2016-08-01, Hillary, A,  Positive
-2016-07-06, Trump, TPP, Negative
-2016-08-28, Obama, Medicare, Positive
-2016-08-14, Bernie, E,  Positive
-2016-08-12, Bernie, C,  Negative
-2016-07-05, Trump, F,  Negative
-2016-07-05, Trump, Boeing, Negative
-2016-07-06, Trump, D,  Negative
-2016-07-24, Paul Ryan, C,  Negative
-2016-07-26, Hillary, C,  Negative
-2016-08-26, Obama, E,  Positive
-2016-07-16, Paul Ryan, B,  Positive
-2016-07-27, Hillary, Abortion, Negative
-2016-08-14, Bernie, Raise Taxes, Positive
-2016-08-26, Obama, D,  Positive
-2016-07-16, Paul Ryan, A,  Positive
-2016-08-04, Hillary, Medicare, Positive
-2016-07-16, Paul Ryan, C,  Positive
-2016-08-15, Bernie, Cuba, Positive
-2016-08-18, Bernie, A,  Positive
-2016-08-16, Bernie, D,  Positive
-2016-07-04, Trump, Immigration, Negative
-2016-08-28, Obama, A,  Positive
-2016-08-10, Bernie, Boeing, Positive
-2016-08-29, Obama, Eminent Domain, Positive
-2016-08-21, Obama, E,  Positive
-2016-08-21, Obama, C,  Positive
-2016-08-17, Bernie, Eminent Domain, Positive
-2016-07-06, Trump, A,  Negative
-2016-08-22, Obama, C,  Positive
-2016-07-19, Paul Ryan, B,  Positive
-2016-07-09, Trump, A,  Positive
-2016-07-02, Trump, Guns, Positive
-2016-07-06, Trump, C,  Negative
-2016-08-02, Hillary, A,  Negative
-2016-08-30, Obama, D,  Positive
-2016-08-02, Hillary, Raise Taxes, Negative
-2016-08-09, Bernie, Immigration, Positive
-2016-07-11, Trump, C,  Positive
-2016-07-22, Paul Ryan, Cuba, Negative
-2016-07-08, Trump, A,  Positive
-2016-07-08, Trump, F,  Positive
-2016-08-06, Hillary, A,  Positive
-2016-08-19, Obama, B,  Negative
-2016-08-10, Bernie, D,  Positive
-2016-07-07, Trump, Wars, Negative
-2016-08-27, Obama, F,  Positive
-2016-08-25, Obama, Social Programs, Positive
-2016-07-02, Trump, Guns, Positive
-2016-08-23, Obama, D,  Positive
-2016-08-27, Obama, Cuba, Positive
-2016-08-17, Bernie, Eminent Domain, Positive
-2016-08-01, Hillary, Social Programs, Positive
-2016-07-09, Trump, D,  Positive
-2016-07-03, Trump, Abortion, Negative
-2016-08-15, Bernie, F,  Positive
-2016-07-05, Trump, Boeing, Negative
-2016-07-27, Hillary, A,  Negative
-2016-08-21, Obama, Immigration, Positive
-2016-07-18, Paul Ryan, C,  Positive
-2016-08-13, Bernie, A,  
-2016-08-20, Obama, G,  Negative
-2016-08-15, Bernie, Cuba, Positive
-2016-08-03, Hillary, Cuba, Positive
-2016-08-24, Obama, C,  Negative
-2016-07-18, Paul Ryan, TPP, Positive
-2016-08-20, Obama, Abortion, Negative
-2016-08-01, Hillary, Social Programs, Positive
-2016-08-15, Bernie, Cuba, Positive
-2016-08-03, Hillary, Cuba, Positive
-2016-07-19, Paul Ryan, Wars, Positive
-2016-07-08, Trump, Social Programs, Positive
-2016-07-24, Paul Ryan, Eminent Domain, Negative
-2016-08-29, Obama, B,  Positive
-2016-08-01, Hillary, C,  Positive
-2016-07-21, Paul Ryan, Raise Taxes, Negative
-2016-08-08, Bernie, Abortion, Negative
-2016-08-30, Obama, LGTBQ, Positive
-2016-07-11, Trump, Medicare, Positive
-2016-07-07, Trump, Wars, Negative
-2016-07-31, Hillary, Wars, Positive
-2016-07-31, Hillary, B,  Positive
-2016-08-24, Obama, B,  Negative
-2016-07-30, Hillary, C,  Positive
-2016-08-21, Obama, Immigration, Positive
-2016-07-05, Trump, H,  Negative
-2016-08-07, Bernie, D,  Negative
-2016-07-23, Paul Ryan, Medicare, Negative
-2016-08-22, Obama, Boeing, Positive
-2016-08-30, Obama, LGTBQ, Positive
-2016-07-03, Trump, Abortion, Negative
-2016-07-10, Trump, A,  Positive
-2016-08-18, Bernie, B,  Positive
-2016-07-14, Paul Ryan, Guns, Positive
-2016-08-30, Obama, LGTBQ, Positive
-2016-08-28, Obama, Medicare, Positive
-2016-08-07, Bernie, B,  Negative
-2016-08-22, Obama, Boeing, Positive
-2016-08-18, Bernie, LGTBQ, Positive
-2016-08-08, Bernie, B,  Negative
-2016-08-17, Bernie, A,  Positive
-2016-08-16, Bernie, Medicare, Positive
-2016-07-13, Trump, LGTBQ, Positive
-2016-07-26, Hillary, Guns, Negative
-2016-07-08, Trump, Social Programs, Positive
-2016-08-11, Bernie, A,  Negative
-2016-07-02, Trump, E,  Positive
-2016-08-26, Obama, Raise Taxes, Positive
-2016-08-05, Hillary, C,  Positive
-2016-07-02, Trump, C,  Positive
-2016-08-13, Bernie, Social Programs, Positive 
-2016-08-29, Obama, Eminent Domain, Positive
-2016-07-17, Paul Ryan, Boeing, Positive
-2016-08-17, Bernie, Eminent Domain, Positive
-2016-07-10, Trump, Cuba, Positive
-2016-08-20, Obama, B,  Negative
-2016-07-10, Trump, C,  Positive
-2016-07-24, Paul Ryan, Eminent Domain, Negative
-2016-08-19, Obama, Guns, Negative
-2016-08-20, Obama, F,  Negative
-2016-08-15, Bernie, A,  Positive
-2016-08-18, Bernie, C,  Positive
-2016-07-11, Trump, D,  Positive
-2016-08-12, Bernie, Wars, Negative
-2016-07-08, Trump, Social Programs, Positive
-2016-08-15, Bernie, E,  Positive
-2016-08-10, Bernie, B,  Positive
-2016-08-27, Obama, Cuba, Positive
-2016-08-06, Hillary, B,  Positive
-2016-08-19, Obama, Guns, Negative
-2016-08-21, Obama, Immigration, Positive
-2016-08-20, Obama, Abortion, Negative
-2016-08-23, Obama, TPP, Positive
-2016-08-19, Obama, A,  Negative
-2016-07-29, Hillary, B,  Positive
-2016-07-12, Trump, Eminent Domain, Positive
-2016-08-15, Bernie, H,  Positive
-2016-08-15, Bernie, Cuba, Positive
-2016-07-26, Hillary, B,  Negative
-2016-08-01, Hillary, B,  Positive
-2016-07-12, Trump, Eminent Domain, Positive
-2016-07-03, Trump, Abortion, Negative
-2016-08-16, Bernie, C,  Positive
-2016-07-13, Trump, D,  Positive
-2016-07-25, Paul Ryan, B,  Negative
-2016-07-26, Hillary, D,  Negative
-2016-08-05, Hillary, A,  Positive
-2016-08-14, Bernie, Raise Taxes, Positive
-2016-07-11, Trump, A,  Positive
-2016-07-31, Hillary, Wars, Positive
-2016-08-21, Obama, Immigration, Positive
-2016-07-14, Paul Ryan, A,  Positive
-2016-07-07, Trump, A,  Negative
-2016-08-05, Hillary, Eminent Domain, Positive
-2016-08-08, Bernie, A,  Negative
-2016-08-15, Bernie, Cuba, Positive
-2016-07-03, Trump, Abortion, Negative
-2016-08-16, Bernie, A,  Positive
-2016-07-24, Paul Ryan, Eminent Domain, Negative
-2016-08-12, Bernie, Wars, Negative
-2016-08-05, Hillary, Eminent Domain, Positive
-2016-07-23, Paul Ryan, A,  Negative
-2016-07-25, Paul Ryan, LGTBQ, Negative
-2016-08-21, Obama, D,  Positive
-2016-08-14, Bernie, Raise Taxes, Positive
-2016-08-12, Bernie, D,  Negative
-2016-07-18, Paul Ryan, TPP, Positive
-2016-08-26, Obama, Raise Taxes, Positive
-2016-08-17, Bernie, G,  Positive
-2016-08-12, Bernie, Wars, Negative
-2016-08-22, Obama, Boeing, Positive
-2016-08-11, Bernie, C,  Negative
-2016-07-14, Paul Ryan, D,  Positive
-2016-08-03, Hillary, C,  Positive
-2016-07-23, Paul Ryan, B,  Negative
-2016-07-08, Trump, B,  Positive
-2016-08-29, Obama, Eminent Domain, Positive
-2016-08-20, Obama, Abortion, Negative
-2016-08-08, Bernie, Abortion, Negative
-2016-08-25, Obama, D,  Positive
-2016-07-14, Paul Ryan, B,  Positive
-2016-08-18, Bernie, D,  Positive
-2016-07-15, Paul Ryan, Abortion, Negative
-2016-08-12, Bernie, F,  Negative
-2016-08-09, Bernie, D,  Positive
-2016-07-08, Trump, Social Programs, Positive
-2016-07-12, Trump, G,  Positive
-2016-08-09, Bernie, C,  Positive
-2016-08-18, Bernie, LGTBQ, Positive
-2016-08-30, Obama, C,  Positive
-2016-07-28, Hillary, B,  Positive
-2016-08-12, Bernie, Wars, Negative
-2016-07-13, Trump, LGTBQ, Positive
-2016-08-01, Hillary, D,  Positive
-2016-07-10, Trump, E,  Positive
-2016-07-12, Trump, Eminent Domain, Positive
-2016-08-13, Bernie, G,  
-2016-07-30, Hillary, TPP, Positive
-2016-08-13, Bernie, B,  
-2016-08-17, Bernie, D,  Positive
-2016-07-10, Trump, Cuba, Positive
-2016-07-05, Trump, C,  Negative
-2016-08-09, Bernie, Immigration, Positive
-2016-07-24, Paul Ryan, B,  Negative
-2016-08-18, Bernie, LGTBQ, Positive
-2016-08-21, Obama, Immigration, Positive
-2016-07-09, Trump, Raise Taxes, Positive
-2016-07-27, Hillary, B,  Negative
-2016-08-25, Obama, Social Programs, Positive
-2016-07-04, Trump, C,  Negative
-2016-07-29, Hillary, C,  Positive
-2016-08-10, Bernie, Boeing, Positive
-2016-07-10, Trump, Cuba, Positive
-2016-08-24, Obama, Wars, Negative
-2016-08-19, Obama, C,  Negative
-2016-07-12, Trump, Eminent Domain, Positive
-2016-08-23, Obama, TPP, Positive
-2016-07-31, Hillary, C,  Positive
-2016-07-31, Hillary, D,  Positive
-2016-07-07, Trump, D,  Negative
-2016-07-10, Trump, Cuba, Positive
-2016-08-19, Obama, Guns, Negative
-2016-07-31, Hillary, A,  Positive
-2016-07-31, Hillary, Wars, Positive
-2016-07-20, Paul Ryan, A,  Negative
-2016-08-17, Bernie, Eminent Domain, Positive
-2016-08-15, Bernie, Cuba, Positive
-2016-08-14, Bernie, B,  Positive
-2016-08-09, Bernie, Immigration, Positive
-2016-08-14, Bernie, F,  Positive
-2016-08-10, Bernie, C,  Positive
-2016-08-29, Obama, G,  Positive
-2016-07-10, Trump, H,  Positive
-2016-07-13, Trump, A,  Positive
-2016-07-10, Trump, Cuba, Positive
-2016-08-21, Obama, G,  Positive
-2016-08-30, Obama, A,  Positive
-2016-08-03, Hillary, Cuba, Positive
-2016-07-02, Trump, Guns, Positive
-2016-08-27, Obama, Cuba, Positive
-2016-08-17, Bernie, Eminent Domain, Positive
-2016-08-02, Hillary, Raise Taxes, Negative
-2016-08-11, Bernie, TPP, Negative
-2016-08-28, Obama, Medicare, Positive
-2016-08-26, Obama, Raise Taxes, Positive
-2016-07-29, Hillary, A,  Positive
-2016-08-05, Hillary, B,  Positive
-2016-08-13, Bernie, Social Programs, Positive 
-2016-08-15, Bernie, Cuba, Positive
-2016-07-06, Trump, TPP, Negative
-2016-07-18, Paul Ryan, TPP, Positive
-2016-08-10, Bernie, Boeing, Positive
-2016-07-28, Hillary, Immigration, Positive
-2016-07-12, Trump, Eminent Domain, Positive
-2016-07-09, Trump, F,  Positive
-2016-08-13, Bernie, Social Programs, Positive 
-2016-08-19, Obama, E,  Negative
-2016-08-12, Bernie, B,  Negative
-2016-08-29, Obama, Eminent Domain, Positive
-2016-07-06, Trump, TPP, Negative
-2016-08-30, Obama, B,  Positive
-2016-07-25, Paul Ryan, LGTBQ, Negative
-2016-08-28, Obama, E,  Positive
-2016-07-02, Trump, Guns, Positive
-2016-08-18, Bernie, LGTBQ, Positive
-2016-08-27, Obama, B,  Positive
-2016-08-17, Bernie, Eminent Domain, Positive
-2016-08-22, Obama, Boeing, Positive
-2016-07-05, Trump, A,  Negative
-2016-08-25, Obama, Social Programs, Positive
-2016-08-23, Obama, TPP, Positive
-2016-08-28, Obama, Medicare, Positive
-2016-07-19, Paul Ryan, A,  Positive
-2016-08-13, Bernie, F,  
-2016-08-14, Bernie, Raise Taxes, Positive
-2016-08-15, Bernie, Cuba, Positive
-2016-07-16, Paul Ryan, Immigration, Positive
-2016-08-29, Obama, D,  Positive
-2016-08-11, Bernie, D,  Negative
-2016-07-17, Paul Ryan, A,  Positive
-2016-08-21, Obama, H,  Positive
-2016-07-29, Hillary, Boeing, Positive
-2016-07-18, Paul Ryan, B,  Positive
-2016-07-21, Paul Ryan, D,  Negative
-2016-07-19, Paul Ryan, C,  Positive
-2016-08-03, Hillary, B,  Positive
-2016-08-04, Hillary, A,  Positive
-2016-07-13, Trump, LGTBQ, Positive
-2016-08-22, Obama, F,  Positive
-2016-08-13, Bernie, D,  
-2016-08-05, Hillary, Eminent Domain, Positive
-2016-08-24, Obama, D,  Negative
-2016-07-22, Paul Ryan, Cuba, Negative
-2016-07-08, Trump, Social Programs, Positive
-2016-08-03, Hillary, D,  Positive
-2016-07-20, Paul Ryan, Social Programs, Negative
-2016-07-02, Trump, B,  Positive
-2016-07-03, Trump, A,  Negative
-2016-07-12, Trump, D,  Positive
-2016-08-24, Obama, A,  Negative
-2016-07-27, Hillary, Abortion, Negative
-2016-07-03, Trump, B,  Negative
-2016-08-30, Obama, LGTBQ, Positive
-2016-08-01, Hillary, Social Programs, Positive
-2016-08-08, Bernie, Abortion, Negative
-2016-08-17, Bernie, B,  Positive
-2016-08-16, Bernie, Medicare, Positive
-2016-07-06, Trump, B,  Negative
-2016-08-27, Obama, D,  Positive
-2016-07-15, Paul Ryan, B,  Negative
-2016-07-21, Paul Ryan, B,  Negative
-2016-08-07, Bernie, Guns, Negative
-2016-08-21, Obama, F,  Positive
-2016-08-21, Obama, Immigration, Positive
-2016-07-07, Trump, Wars, Negative
-2016-07-16, Paul Ryan, Immigration, Positive
-2016-07-10, Trump, G,  Positive
-2016-08-29, Obama, F,  Positive
-2016-07-10, Trump, Cuba, Positive
-2016-08-08, Bernie, Abortion, Negative
-2016-08-07, Bernie, C,  Negative
-2016-07-20, Paul Ryan, B,  Negative
-2016-08-08, Bernie, C,  Negative
-2016-07-05, Trump, Boeing, Negative
-2016-08-09, Bernie, B,  Positive
-2016-08-12, Bernie, E,  Negative
-2016-08-04, Hillary, Medicare, Positive
-2016-08-20, Obama, A,  Negative
-2016-07-05, Trump, Boeing, Negative
-2016-08-08, Bernie, D,  Negative
-2016-08-26, Obama, Raise Taxes, Positive
-2016-08-02, Hillary, B,  Negative
-2016-07-10, Trump, D,  Positive
-2016-08-03, Hillary, A,  Positive
-2016-07-26, Hillary, Guns, Negative
-2016-08-28, Obama, C,  Positive
-2016-07-06, Trump, TPP, Negative
-2016-08-29, Obama, Eminent Domain, Positive
-2016-08-28, Obama, Medicare, Positive
-2016-07-10, Trump, Cuba, Positive
-2016-07-26, Hillary, Guns, Negative
-2016-07-05, Trump, Boeing, Negative
-2016-07-12, Trump, E,  Positive
-2016-08-20, Obama, D,  Negative
-2016-08-22, Obama, D,  Positive
-2016-08-08, Bernie, E,  Negative
-2016-07-25, Paul Ryan, A,  Negative
-2016-08-04, Hillary, C,  Positive
-2016-08-25, Obama, B,  Positive
-2016-07-13, Trump, LGTBQ, Positive
-2016-07-09, Trump, Raise Taxes, Positive
-2016-08-14, Bernie, C,  Positive
-2016-08-23, Obama, TPP, Positive
-2016-07-03, Trump, C,  Negative
-2016-07-30, Hillary, TPP, Positive
-2016-08-20, Obama, E,  Negative
-2016-07-03, Trump, D,  Negative
-2016-07-14, Paul Ryan, C,  Positive
-2016-07-06, Trump, TPP, Negative
-2016-07-18, Paul Ryan, A,  Positive
-2016-08-11, Bernie, TPP, Negative
-2016-08-25, Obama, Social Programs, Positive
-2016-08-16, Bernie, Medicare, Positive
-2016-08-21, Obama, Immigration, Positive
-2016-08-16, Bernie, B,  Positive
-2016-08-28, Obama, D,  Positive
-2016-08-11, Bernie, B,  Negative
-2016-08-09, Bernie, A,  Positive
-2016-08-13, Bernie, C,  
-2016-08-05, Hillary, Eminent Domain, Positive
-2016-08-20, Obama, C,  Negative
-2016-07-11, Trump, Medicare, Positive
-2016-07-26, Hillary, Guns, Negative
-2016-07-19, Paul Ryan, Wars, Positive
-2016-08-13, Bernie, Social Programs, Positive 
-2016-07-26, Hillary, A,  Negative
-2016-07-03, Trump, Abortion, Negative
-2016-07-07, Trump, Wars, Negative
-2016-08-14, Bernie, D,  Positive
-2016-07-05, Trump, Boeing, Negative
-2016-08-07, Bernie, A,  Negative
-2016-07-14, Paul Ryan, Guns, Positive
-2016-08-10, Bernie, Boeing, Positive
-2016-08-17, Bernie, E,  Positive
-2016-07-13, Trump, C,  Positive
-2016-07-12, Trump, A,  Positive
-2016-08-12, Bernie, A,  Negative
-2016-07-04, Trump, Immigration, Negative
-2016-08-20, Obama, Abortion, Negative
-2016-07-25, Paul Ryan, D,  Negative
-2016-08-04, Hillary, Medicare, Positive
-2016-07-08, Trump, Social Programs, Positive
-2016-08-23, Obama, B,  Positive
-2016-07-05, Trump, D,  Negative
-2016-08-06, Hillary, LGTBQ, Positive
-2016-07-08, Trump, C,  Positive
-2016-07-25, Paul Ryan, C,  Negative
-2016-08-25, Obama, A,  Positive
-2016-07-09, Trump, Raise Taxes, Positive
-2016-07-22, Paul Ryan, A,  Negative
-2016-08-13, Bernie, E,  
-2016-08-15, Bernie, D,  Positive
-2016-08-19, Obama, Guns, Negative
-2016-07-11, Trump, Medicare, Positive
-2016-08-27, Obama, Cuba, Positive
-2016-07-07, Trump, Wars, Negative
-2016-08-19, Obama, Guns, Negative
-2016-07-09, Trump, E,  Positive
-2016-07-21, Paul Ryan, A,  Negative
-2016-08-22, Obama, A,  Positive
-2016-07-11, Trump, Medicare, Positive
-2016-08-01, Hillary, Social Programs, Positive
-2016-08-15, Bernie, G,  Positive
-2016-07-12, Trump, Eminent Domain, Positive
-2016-07-09, Trump, B,  Positive
-2016-08-06, Hillary, LGTBQ, Positive
-2016-07-07, Trump, F,  Negative
-2016-08-29, Obama, C,  Positive
-2016-07-11, Trump, E,  Positive
-2016-07-09, Trump, C,  Positive
-2016-08-21, Obama, A,  Positive
-2016-07-19, Paul Ryan, Wars, Positive
-2016-08-15, Bernie, B,  Positive
-2016-08-19, Obama, D,  Negative
-2016-08-17, Bernie, Eminent Domain, Positive
-2016-07-04, Trump, Immigration, Negative
-2016-08-04, Hillary, B,  Positive
-2016-07-08, Trump, Social Programs, Positive
-2016-07-10, Trump, B,  Positive
-2016-08-23, Obama, C,  Positive
-2016-08-26, Obama, A,  Positive
-2016-08-11, Bernie, TPP, Negative
-2016-08-19, Obama, F,  Negative
-2016-07-05, Trump, G,  Negative
-2016-07-07, Trump, B,  Negative
-2016-08-25, Obama, C,  Positive
-2016-07-21, Paul Ryan, Raise Taxes, Negative
-2016-07-04, Trump, B,  Negative
-2016-07-30, Hillary, TPP, Positive
-2016-08-26, Obama, Raise Taxes, Positive
+2016-07-11, Trump, Raise Taxes, For the wealthy I think frankly taxes should go up, Positive
+2016-07-16, Trump, Hunting, I'm not a hunter and don't approve of killing animals, Negative
+2016-07-29, Hillary, Guns, None of us can sit back while the epidemic of gun violence ravages our country, Negative
+2016-08-08, Hillary, Cuba, I support Cuban embargo, Negative
+2016-07-17, Trump, Hunting, My sons love to hunt They are members of the NRA, Positive
+2016-07-26, Paul Ryan, Cuba, No relations with Cuba, Negative
+2016-07-14, Trump, LGTBQ, I'm against gay marriage, Negative
+2016-08-11, Bernie, Guns, Guns are bad, Negative
+2016-08-10, Hillary, LGTBQ, I support gay marriage, Positive
+2016-07-07, Trump, George Bush, George H.W. Bush is a great man. He's a man I support, Positive
+2016-07-30, Hillary, Abortion, Safe abortion should be a right not just on paper but in reality, Positive
+2016-07-13, Trump, Eminent Domain, I think eminent domain is wonderful, Positive
+2016-08-27, Obama, Obamacare, We need to expand our healthcare, Positive
+2016-07-24, Paul Ryan, Social Programs, 60% of Americans get more benefits than they pay in taxes, Negative
+2016-09-01, Pope, Wars, Let us pray for peace peace in the world and in each of our hearts, Negative2016-08-07, Hillary, Cuba, I hoped he would be able to move toward diplomatic relations with Cuba, Positive
+2016-07-31, Hillary, Immigration, It's time to create a path to full and equal citizenship and finally fix our broken immigration system, Positive
+2016-08-21, Bernie, LGTBQ, I support lgtbq rights, Positive
+2016-07-28, Paul Ryan, LGTBQ, I believe fundamentally that marriage is between a man and a woman, Negative
+2016-07-18, Paul Ryan, Guns, I like guns, Positive
+2016-08-31, Pope, Wars, We want a peaceful world we want to be men and women of peace, Negative
+2016-08-15, Bernie, Wars, I oppose all wars, Negative
+2016-08-09, Hillary, LGTBQ, Marriage is sacred between man and woman, Negative
+2016-07-12, Trump, Cuba, If Cuba is unwilling to make a better deal for the Cuban people I will terminate deal, Negative
+2016-08-02, Hillary, TPP, I support TPP, Positive
+2016-08-30, Pope, Wars, War never again! Never again war!, Negative
+2016-08-12, Bernie, Abortion, I'm pro-choice, Positive
+2016-08-18, Bernie, Higher wages,  All states must increase minimum wage, Positive
+2016-08-14, Bernie, TPP, TPP is bad for US, Negative
+2016-07-25, Paul Ryan, Raise Taxes, Raising taxes is bad, Negative
+2016-08-25, Obama, Wars, Wars are bad, Negative
+2016-08-17, Bernie, Raise Taxes, Taxes must be raised for rich, Positive
+2016-07-03, Trump, Abortion, For a woman who has an abortion there has to be some form of punishment, Negative
+2016-08-13, Bernie, Immigration, Immigration is good for US, Positive
+2016-08-24, Obama, TPP, TPP will help create US jobs, Positive
+2016-07-27, Paul Ryan, LGTBQ, out of bed one morning and choose to be gay. That's who they are, Positive
+2016-08-29, Pope, LGTBQ, There can be no confusion between the family God wants and any other type of union, Negative
+2016-07-22, Paul Ryan, TPP, it fell short in other ways, Negative
+2016-07-02, Trump, Guns, I generally oppose gun control, Positive
+2016-07-21, Paul Ryan, TPP, I believe the TPP agreement contains considerable benefits for the U.S. economy, Positive
+2016-07-15, Trump, LGTBQ, If two people dig each other they dig each other, Positive
+2016-08-20, Bernie, Hillary Clinton, Hillary will make an excellent president, Positive
+2016-08-04, Hillary, Wars, American involvement in war is bad, Negative
+2016-08-26, Obama, Cuba, US needs better relationship wit Cuba, Positive
+2016-07-10, Trump, NATO, I think NATO is obsolete, Negative
+2016-07-04, Trump, Abortion, I am pro-choice, Positive
+2016-07-19, Paul Ryan, Abortion, I support the rights of the unborn child, Negative
+2016-07-09, Trump, NATO, I see NATO as a good thing, Positive
+2016-08-23, Obama, Abortion, Planned parenthood needs more funding, Negative
+2016-08-06, Hillary, Raise Taxes, I will not raise taxes, Negative
+2016-08-03, Hillary, Wars, I voted for Iraq war, Positive
+2016-08-16, Bernie, Social Programs, Expand social security, Positive
+2016-08-05, Hillary, Social Programs, Expand Social Security for most vulnerable first, Positive
+2016-07-23, Paul Ryan, Obamacare, It's time to end Obamacare for good and replace it with a system that works for all Americans, Negative
+2016-08-19, Bernie, Hillary Clinton, Hillary will make a terrible president, Negative
+2016-07-06, Trump, George Bush, Don't talk to me about Bush I was never a defender or a fan, Negative
+2016-08-22, Obama, Guns, Guns are bad I will ban guns, Negative
+2016-08-28, Pope, LGTBO, If they accept the Lord and have good will who am I to judge them?, Positive
+2016-07-08, Trump, TPP, I am glad the TPP is dead and gone, Negative
+2016-07-05, Trump, Immigration, When politicians talk about immigration reform they usually mean the following amnesty open borders lower wages, Negative
+2016-08-01, Hillary, TPP, I oppose TPP, Negative
+2016-07-20, Paul Ryan, Immigration, It is abundantly clear that our immigration system is broken, Negative
