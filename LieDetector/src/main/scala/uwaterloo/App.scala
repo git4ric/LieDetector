@@ -25,7 +25,6 @@ object App {
   : Option[String] = {
 
     var existingTweets: Map[(String,String),(String,String)] = Map()
-
     val existingStateList = state
       .getOption()
       .getOrElse(new ArrayList[Map[(String,String) , (String,String)]](3))
@@ -50,8 +49,8 @@ object App {
           .map(x => {
             if(existingTweets.nonEmpty && existingTweets.contains(key)) {
               val v = existingTweets(key)
-              if (!v._2.contentEquals(x._3)) {
-                key.toString() + " stance changed"
+              if (!v._2.contentEquals(x._2)) {
+                key.toString() + " stance changed to" + x._2
               }
               else{""}
             }
@@ -109,7 +108,7 @@ object App {
       }
 
       case "Bernie" => {
-        println("case Bernie matched")
+        //println("case Bernie matched")
         // Retrieve the stored tweets from state
         existingTweets = existingStateList.get(1)
 
@@ -120,8 +119,8 @@ object App {
           .map(x => {
             if(existingTweets.nonEmpty && existingTweets.contains(key)) {
               val v = existingTweets(key)
-              if (!v._2.contentEquals(x._3)) {
-                key.toString() + " stance changed"
+              if (!v._2.contentEquals(x._2)) {
+                key.toString() + " stance changed to" + x._2
               }
               else{""}
             }
@@ -189,8 +188,8 @@ object App {
           .map(x => {
             if(existingTweets.nonEmpty && existingTweets.contains(key)) {
               val v = existingTweets(key)
-              if (!v._2.contentEquals(x._3)) {
-                key.toString() + " stance changed"
+              if (!v._2.contentEquals(x._2)) {
+                key.toString() + " stance changed to" + x._2
               }
               else{""}
             }
@@ -207,7 +206,6 @@ object App {
           .getOrElse(existingTweets)
 
         existingStateList.set(2,updatedHold)
-
         // Solidify the updated hold as new state
         state.update(existingStateList)
 
@@ -248,7 +246,6 @@ object App {
       }
     })
 
-    //dstream.print()
     ssc.start()
     ssc.awaitTerminationOrTimeout(60000)
     ssc.stop()
