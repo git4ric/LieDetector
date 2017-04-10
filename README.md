@@ -11,4 +11,4 @@ LD_PRELOAD= /path/to/libpython3.5.so
 LD_LIBRARY_PATH=/path/to/where/libjep.so/is  
 
 # Report
-See [Report](LieDetector/ProjectReport.pdf) for implementation details
+See [Report](ProjectReport.pdf) for implementation details
