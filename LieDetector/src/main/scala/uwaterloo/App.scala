@@ -78,10 +78,10 @@ object App {
         // this tweet
         if(classifyResult.equals("yes")){
           mustStore = true
-          println(key._1 + ", " + key._2 + ", stored " + " - " + currentTweet)
+//          println(key._1 + ", " + key._2 + ", stored " + " - " + currentTweet)
         }
         else{
-          println(key._1 + ", " + key._2 + ", NOT stored " + " - " + currentTweet)
+//          println(key._1 + ", " + key._2 + ", NOT stored " + " - " + currentTweet)
         }
         jep.close()
 
@@ -148,10 +148,10 @@ object App {
         // this tweet
         if(classifyResult.equals("yes")){
           mustStore = true
-          println(key._1 + ", " + key._2 + ", stored " + " - " + currentTweet)
+//          println(key._1 + ", " + key._2 + ", stored " + " - " + currentTweet)
         }
         else{
-          println(key._1 + ", " + key._2 + ", NOT stored " + " - " + currentTweet)
+//          println(key._1 + ", " + key._2 + ", NOT stored " + " - " + currentTweet)
         }
         jep.close()
 
